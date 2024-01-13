@@ -55,6 +55,8 @@ const deleteFunction = function(deleter){
         inputOne = '';
         inputTwo = '';
         operation = '';
+        topText.textContent = '';
+        bottomText.textContent = '';
     } else if (deleter === 'delete') {
         if (operation === '') {
             inputOne = inputOne.slice(0, -1);
